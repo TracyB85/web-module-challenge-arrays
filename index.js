@@ -45,16 +45,11 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-
-
-
 function copy(list){
     console.log(list)
 
    return(list)
 }   
-
-
 
 copy(originalFlavors)
 
@@ -77,6 +72,8 @@ function is31Flavors(flavArr){
    
 }
 is31Flavors(originalFlavors)
+
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
 
@@ -90,9 +87,15 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
-}
+
+  function addFlavor (originalFlavors.unshift`Rainbow Sherbert`)
+    
+  console.log(addFlavor())
+
+  return originalFlavors
+
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
